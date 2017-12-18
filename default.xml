@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/" />
+  <default revision="master"
+           remote="github"
+           sync-s="true"
+           sync-c="true" />
+
+  <project path="dts" name="Gateworks/dts-newport" />
+  <project path="atf" name="Gateworks/atf-newport" revision="sdk-6.2.0-newport" />
+  <project path="bdk" name="Gateworks/bdk-newport" revision="sdk-6.2.0-newport" />
+  <project path="u-boot" name="Gateworks/uboot-newport" revision="v2017.09-rc1-newport" />
+  <project path="linux" name="Gateworks/linux-newport" revision="newport" />
+  <project path="newport" name="Gateworks/bsp-newport">
+    <linkfile src="Makefile" dest="Makefile"/>
+    <linkfile src="setup-environment" dest="setup-environment"/>
+    <linkfile src="make-bootfs.py" dest="bin/make-bootfs.py"/>
+    <linkfile src="fixpart" dest="bin/fixpart"/>
+  </project>
+</manifest>
