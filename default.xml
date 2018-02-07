@@ -15,7 +15,5 @@
   <project path="newport" name="Gateworks/bsp-newport">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="setup-environment" dest="setup-environment"/>
-    <linkfile src="make-bootfs.py" dest="bin/make-bootfs.py"/>
-    <linkfile src="fixpart" dest="bin/fixpart"/>
   </project>
 </manifest>
