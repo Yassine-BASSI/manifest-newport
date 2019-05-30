@@ -13,7 +13,7 @@
   <project path="u-boot" name="Gateworks/uboot-newport" revision="v2017.09-rc1-newport" />
   <project path="linux" name="Gateworks/linux-newport" revision="v4.14.4-newport" />
   <project path="openwrt" name="Gateworks/openwrt" revision="18.0x" />
-  <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" revision="cryptodev-linux-1.10" />
+  <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" revision="refs/tags/cryptodev-linux-1.10" />
   <project path="newport" name="Gateworks/bsp-newport">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="setup-environment" dest="setup-environment"/>
