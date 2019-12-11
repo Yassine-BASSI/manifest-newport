@@ -7,14 +7,14 @@
            sync-s="true"
            sync-c="true" />
 
-  <project path="dts" name="Gateworks/dts-newport" />
-  <project path="atf" name="Gateworks/atf-newport" revision="sdk-6.2.0-newport" />
-  <project path="bdk" name="Gateworks/bdk-newport" revision="sdk-6.2.0-newport" />
-  <project path="u-boot" name="Gateworks/uboot-newport" revision="v2017.09-rc1-newport" />
+  <project path="dts" name="Gateworks/dts-newport" revision="sdk-10.1.1.0-newport" />
+  <project path="atf" name="Gateworks/atf-newport" revision="sdk-10.1.1.0-newport" />
+  <project path="bdk" name="Gateworks/bdk-newport" revision="sdk-10.1.1.0-newport" />
+  <project path="u-boot" name="Gateworks/uboot-newport" revision="v2019.10-newport" />
   <project path="linux" name="Gateworks/linux-newport" revision="v4.14.4-newport" />
   <project path="openwrt" name="Gateworks/openwrt" revision="18.0x" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" revision="refs/tags/cryptodev-linux-1.10" />
-  <project path="newport" name="Gateworks/bsp-newport">
+  <project path="newport" name="Gateworks/bsp-newport" revision="sdk-10.1.1.0-newport">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="setup-environment" dest="setup-environment"/>
   </project>
