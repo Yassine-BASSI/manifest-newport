@@ -12,7 +12,7 @@
   <project path="dts" name="Gateworks/dts-newport" revision="sdk-10.1.1.0-newport" />
   <project path="atf" name="Gateworks/atf-newport" revision="sdk-10.1.1.0-newport" />
   <project path="bdk" name="Gateworks/bdk-newport" revision="sdk-10.1.1.0-newport" />
-  <project path="u-boot" name="Gateworks/uboot-newport" revision="v2019.10-newport" />
+  <project path="u-boot" name="Gateworks/uboot-newport" revision="v2021.01-newport" />
   <project path="linux" name="Gateworks/linux-newport" revision="v5.4.45-newport" />
   <project path="openwrt" name="Gateworks/openwrt" revision="20.06" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" revision="master" />
