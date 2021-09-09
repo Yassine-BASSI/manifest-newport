@@ -2,8 +2,6 @@
 <manifest>
   <remote  name="github"
            fetch="git://github.com/" />
-  <remote  name="wireguard"
-           fetch="https://git.zx2c4.com/" />
   <default revision="master"
            remote="github"
            sync-s="true"
@@ -14,6 +12,8 @@
   <project path="bdk" name="Gateworks/bdk-newport" revision="sdk-10.1.1.0-newport" />
   <project path="u-boot" name="Gateworks/uboot-newport" revision="v2021.01-newport" />
   <project path="linux" name="Gateworks/linux-newport" revision="v5.10.18-newport" />
+  <project path="nrc7292" name="Gateworks/nrc7292" />
+  <project path="ftdi-usb-spi" name="Gateworks/ftdi-usb-spi" />
   <project path="openwrt" name="Gateworks/openwrt" revision="20.06" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" revision="master" />
   <project path="newport" name="Gateworks/bsp-newport" revision="sdk-10.1.1.0-newport">
