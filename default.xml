@@ -11,7 +11,7 @@
   <project path="atf" name="Gateworks/atf-newport" revision="sdk-10.1.1.0-newport" />
   <project path="bdk" name="Gateworks/bdk-newport" revision="sdk-10.1.1.0-newport" />
   <project path="u-boot" name="Gateworks/uboot-newport" revision="v2021.01-newport" />
-  <project path="linux" name="Gateworks/linux-newport" revision="v5.10.18-newport" />
+  <project path="linux" name="Gateworks/linux-newport"  />
   <project path="nrc7292" name="Gateworks/nrc7292" />
   <project path="ftdi-usb-spi" name="Gateworks/ftdi-usb-spi" />
   <project path="openwrt" name="Gateworks/openwrt" revision="20.06" />
